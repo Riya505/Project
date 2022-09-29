@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<style>
+    .gfg {
+        margin: 3%;
+        position: relative;
+    }
+    .first-txt {
+        position: absolute;
+        top: 100px;
+        left: 150px;
+    }
+
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="tourism.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback.html">feedback</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <img height="300px" src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+        <h3 class="first-txt">
+            Need help?Feel free to contact us
+            <ul>
+                <li>No:987654321</li>
+                <li>Email:travels@gmail.com</li>
+              </ul>
+            
+        
+      
+      </div>
+
+      <h4>Book here</h4>
+      <table class="table">
+        <tr>
+            <td>Name</td>
+            <td> <input type="text" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>Email id</td>
+            <td> <input type="email" name="" id="" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>Select tour package</td>
+            <td> <select name="" id="" class="form-control">
+                <option value="goa"></option>
+                <option value="manali"></option>
+                <option value="kashmir"></option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Arrival date</td>
+            <td> <input type="date" name="" id="" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>Number of person</td>
+            <td> <input type="text" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>discount coupon code</td>
+            <td> <input type="text" class="form-control"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <button class="btn btn-primary">Complete reservation</button></td>
+        </tr>
+    </table>
+    
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
